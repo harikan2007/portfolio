@@ -10456,15 +10456,15 @@ a:hover {
   }
 }
 .dark-blue-text {
-  color: #272341 !important;
+  color: #d9d8dd !important;
 }
 .text-color-main {
-  color: #001510;
-  -webkit-text-fill-color: #001510;
+  color: #b3d3cc;
+  -webkit-text-fill-color: #b3d3cc;
 }
 @supports (-webkit-background-clip: text) or (background-clip: text) {
   .text-color-main {
-    background-image: linear-gradient(135deg, #00bf8f 0%, #001510 100%);
+    background-image: linear-gradient(135deg, #00bf8f 0%, #b3d3cc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
@@ -10473,7 +10473,7 @@ a:hover {
 @media (max-width: 37.5em) {
   .text-color-main {
     background-image: none;
-    -webkit-text-fill-color: #001510;
+    -webkit-text-fill-color: #b3d3cc;
   }
 }
 .text-color-main:hover {
@@ -10502,15 +10502,15 @@ a:hover {
 }
 /* Hero Style */
 .cta-btn--hero {
-  color: #001510;
-  -webkit-text-fill-color: #001510;
+  color: #b3d3cc;
+  -webkit-text-fill-color: #b3d3cc;
   border: 2px solid transparent;
-  border-image: linear-gradient(135deg, #00bf8f 0%, #001510 100%);
+  border-image: linear-gradient(135deg, #00bf8f 0%, #b3d3cc 100%);
   border-image-slice: 1;
 }
 @supports (-webkit-background-clip: text) or (background-clip: text) {
   .cta-btn--hero {
-    background-image: linear-gradient(135deg, #00bf8f 0%, #001510 100%);
+    background-image: linear-gradient(135deg, #00bf8f 0%, #b3d3cc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
@@ -10518,21 +10518,21 @@ a:hover {
 }
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
   .cta-btn--hero {
-    color: #001510 !important;
+    color: #b3d3cc !important;
   }
   .cta-btn--hero:hover {
-    color: #fff !important;
+    color: #112922 !important;
   }
 }
 @media (max-width: 37.5em) {
   .cta-btn--hero {
     background-image: none;
-    border: 2px solid #001510;
-    -webkit-text-fill-color: #001510;
+    border: 2px solid #b3d3cc;
+    -webkit-text-fill-color: #b3d3cc;
   }
 }
 .cta-btn--hero::after {
-  background-image: linear-gradient(135deg, #00bf8f 0%, #001510 100%);
+  background-image: linear-gradient(135deg, #00bf8f 0%, #b3d3cc 100%);
 }
 @media (max-width: 37.5em) {
   .cta-btn--hero::after {
@@ -10540,12 +10540,12 @@ a:hover {
   }
 }
 .cta-btn--hero:hover {
-  -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color: #112922;
   text-decoration: none;
 }
 @media (max-width: 37.5em) {
   .cta-btn--hero:hover {
-    -webkit-text-fill-color: #001510;
+    -webkit-text-fill-color: #b3d3cc;
   }
 }
 .cta-btn--hero:hover::after {
@@ -10553,14 +10553,14 @@ a:hover {
 }
 /* Resume Style */
 .cta-btn--resume {
-  color: #fff;
-  border: 2px solid #fff;
+  color: #112922;
+  border: 2px solid #112922;
 }
 .cta-btn--resume::after {
-  background: #fff;
+  background: #112922;
 }
 .cta-btn--resume:hover {
-  color: #001510;
+  color: #b3d3cc;
   text-decoration: none;
 }
 .cta-btn--resume:hover::after {
@@ -10572,7 +10572,7 @@ a:hover {
 }
 .footer {
   background-color: #333333;
-  color: #fff;
+  color: #112922;
   padding: 4.8rem 0;
 }
 @media (max-width: 37.5em) {
@@ -10581,11 +10581,11 @@ a:hover {
   }
 }
 .footer__text {
-  color: gray;
+  color: black;
   font-size: 1.3rem;
 }
 .footer__text a {
-  color: gray;
+  color: black;
   font-size: 1.3rem;
   transition: all 0.4s;
   display: inline-block;
@@ -10611,7 +10611,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
+  color: #112922;
   font-size: 3rem;
   width: 5rem;
   height: 5rem;
@@ -10622,7 +10622,7 @@ a:hover {
   transform: translateY(-2px);
 }
 .back-to-top i {
-  color: #fff;
+  color: #112922;
   margin: 1rem 0 1.6rem;
   transition: all 0.2s ease-in;
 }
@@ -10641,8 +10641,8 @@ section {
 }
 #about {
   background-color: #00bf8f !important;
-  background-image: linear-gradient(135deg, #00bf8f 0%, #001510 100%);
-  color: #fff;
+  background-image: linear-gradient(135deg, #00bf8f 0%, #b3d3cc 100%);
+  color: #112922;
   height: 100%;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -10702,7 +10702,7 @@ section {
   }
 }
 #about .about-wrapper__info-text--important {
-  background: #00100c;
+  background: #b0d1ca;
   display: inline-block;
   font-style: italic;
   padding: 0 0.3rem;
@@ -10719,13 +10719,13 @@ section {
   }
 }
 #contact {
-  background-image: linear-gradient(135deg, #00bf8f 0%, #001510 100%);
+  background-image: linear-gradient(135deg, #00bf8f 0%, #b3d3cc 100%);
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   padding: 15rem 0 10rem 0;
   margin-top: -10rem;
   margin-bottom: -1px;
-  color: #fff;
+  color: #112922;
 }
 @media (max-width: 75em) {
   #contact {
@@ -10759,9 +10759,9 @@ section {
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: #fff;
+  background: #112922;
   font-weight: 400;
-  color: #272341;
+  color: #d9d8dd;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -10823,8 +10823,8 @@ section {
   }
 }
 #projects {
-  background-color: #fff !important;
-  color: #272341;
+  background-color: #112922 !important;
+  color: #d9d8dd;
   margin-top: -10rem;
   padding-top: 15rem;
 }
@@ -10874,7 +10874,7 @@ section {
   }
 }
 #projects .project-wrapper__text p > a {
-  color: #001510;
+  color: #b3d3cc;
 }
 #projects .project-wrapper__image {
   width: 90%;
